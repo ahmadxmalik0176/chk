@@ -43,7 +43,7 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-logo=("""
+logo=(""" 
 \033[1;33m   ___    _  _   __  __    ___     ___   
 \033[1;33m  /   \  | || | |  \/  |  /   \   |   \  
 \033[1;33m  | - |  | __ | | |\/| |  | - |   | |) | 
