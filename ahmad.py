@@ -728,60 +728,6 @@ print("\t \033[1;37m  FIRST GET APPROVEL\033[1;37m ")
 print(' \033[1;37mYour Key : "{fkeyx}')
 print("\033[1;37m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
 print("  SEND KEY ON ADMIN WHATSAPP,,,,,,,,,,,,,,,,,    ");time.sleep(1)
-  try:
-    httpCaht = requests.get("https://github.com/ahmadxmalik1/APPROVAL/blob/main/approval.txt").text
-    if id in httpCaht:
-      print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      pass
-    else:
-      
-      print("\x1b[1;97m    Sorry Bro Token Key not AprovedðŸ˜“")
-      print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+923056673626')
-      time.sleep(2)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	print(logo)
-    	menu_apikey()
-menu_apikey() 
-
-
-
-def tnx():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "_".join(uuid)
-  server = requests.get('https://github.com/ahmadxmalik1/APPROVAL/blob/main/approval.txt').text
-  
- 
-
-  os.system(" clear ")
-  print(logo)
-  print(" Wait bro,,,, ")
-  print(" Chacking Your Aproval ")
-  print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
-  try:
-    httpCaht = requests.get("https://github.com/ahmadxmalik1/APPROVAL/blob/main/approval.txt").text
-    if id in httpCaht:
-      print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      pass
-    else:
-      
-      print("\x1b[1;97m    Sorry Bro Your Token not AprovedðŸ˜“ ")
-      print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+923056673626')
-      time.sleep(2)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__': 
-    	print(logo)
-    	menu_apikey()
 try:
 	menu()
 except requests.exceptions.ConnectionError:
