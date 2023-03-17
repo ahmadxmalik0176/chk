@@ -19,7 +19,7 @@ ugen=[]
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; U; Android'
         b=random.choice(['6','7','8','9','10','11','12','13'])
-        c=f' TL-tl; {str(gt)}'
+        c=f' TL-tl; {str(git)}'
         g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
         h=random.randrange(73,100)
         i='0'
