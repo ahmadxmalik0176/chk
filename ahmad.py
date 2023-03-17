@@ -309,7 +309,7 @@ def menu():
                         print("\033[1;36m We are Not Responsible if facebook go on update/ you not get ok idz\n We don't responsible if you delete your termux and key need approved\033[1;37m")
                         linex()
                         print(' \033[1;31mYour Key Not Registered\033[1;37m')
-                        print(f" \033[1;37mYour Key : "{fkeyx}")
+                        print(' \033[1;37mYour Key : "{fkeyx}')
                         linex();print (" Tools.. : Facebook Cloning");print (" Massage : Your Key Not Registered");print (" Status  : \033[1;91mTrail\033[1;37m\n \033[1;31m\033[1;42mNote: If You Are Free User Don't Come IB\033[0;0m");linex();print(' [+] File crack\n [+] Create ids file\n [+] Public crack\n [+] Random number crack\n [+] Random gmail crack\n [+] Exit menu\n\x1b[1;97m [1] Upgrade Tool To (\x1b[1;95mPremium\x1b[1;37m)')
                         linex()
                         input(" Choose Option : ")
