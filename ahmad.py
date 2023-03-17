@@ -725,10 +725,9 @@ def clear():
         os.system('clear')
         print(logo)  
 print("\t \033[1;37m  FIRST GET APPROVEL\033[1;37m ")
-  print("\x1b[1;97m   contact Admin to Buy this Tools");time.sleep (0.1) 
-  print(' \033[1;37mYour Key : "{fkeyx}')
-  print("\033[1;37m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
-  print("  SEND KEY ON ADMIN WHATSAPP,,,,,,,,,,,,,,,,,    ");time.sleep(1)
+print(' \033[1;37mYour Key : "{fkeyx}')
+print("\033[1;37m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
+print("  SEND KEY ON ADMIN WHATSAPP,,,,,,,,,,,,,,,,,    ");time.sleep(1)
   
   print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
