@@ -703,14 +703,11 @@ def menu_apikey():
 
 
 logo=("""\033[1;37m
-
 \033[1;33m   ___    _  _   __  __    ___     ___   
 \033[1;33m  /   \  | || | |  \/  |  /   \   |   \  
 \033[1;33m  | - |  | __ | | |\/| |  | - |   | |) | 
-\033[1;33m  |_|_|  |_||_| |_|__|_|  |_|_|   |___/  
-\033[1;33m_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
+\033[1;33m  |_|_|  |_||_| |_|__|_|  |_|_|   |___/   
 \033[1;33m"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
-   
 ----------------------------------------------
  Author    : AHMAD MALIK
  Github    : AHMAD
@@ -733,7 +730,7 @@ print("\t \033[1;37m  FIRST GET APPROVEL\033[1;37m ")
   print("")
   print("\x1b[1;97m   contact Admin to Buy this Tools                                                               ");time.sleep (0.1) 
   print("")
-  print(f" \033[1;37mYour Key : "{fkeyx}")
+  print(' \033[1;37mYour Key : "{fkeyx}')
   print("")
   print("\033[1;37m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print("")
